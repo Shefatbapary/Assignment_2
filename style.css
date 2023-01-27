@@ -4,6 +4,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 .primary-btn {
     font-weight: 500;
     font-size: 15px;
@@ -70,6 +71,7 @@ nav a {
     font-size: 15px;
     margin: 20px 0;
 }
+
 .banner-img {
     display: flex;
     justify-content: center;
@@ -86,7 +88,7 @@ nav a {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin: 48px 200px;
-    gap: 40px;
+    gap: 60px;
 }
 
 .quick-list-img {
@@ -99,18 +101,66 @@ nav a {
 .quick-list-img img {
     width: 100%;
 }
+
+.quick-list-info h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.quick-list-style-1 {
+    color: #727272;
+}
+
+.quick-list-style-2 {
+    color: #FF900E;
+}
+
+.quick-list-des {
+    color: #727272;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+/* Features you style */
+.features-you {
+    margin: 20px 160px;
+    display: flex;
+}
+
+.features-title-container {
+    display: flex;
+}
+
+.features-sitebar {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.featue-img img {
+    width: 100%;
+}
+
 /* Our Sponspors style */
-.sponspors-img{
+.sponspors-img {
     display: flex;
     justify-content: space-between;
     margin: 20px 160px;
 }
-.sponspors-img img{
+
+.sponspors-img img {
     width: 136px;
+    filter: grayscale(100%);
 }
 
 /* Footer style */
-.footer-text{
+.footer-text {
     text-align: center;
     background-color: rgba(255, 144, 14, 0.1);
     margin: 20px 160px 100px 160px;
@@ -119,4 +169,3 @@ nav a {
     font-weight: 300;
     font-size: 15px;
 }
-
