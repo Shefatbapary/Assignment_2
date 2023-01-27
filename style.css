@@ -1,7 +1,6 @@
 /* all wabsite style */
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -126,15 +125,17 @@ nav a {
 .features-you {
     margin: 20px 160px;
     display: flex;
+    gap: 150px;
 }
 
 .features-title-container {
     display: flex;
+    gap: 10px;
 }
 
 .features-sitebar {
-    width: 5px;
-    height: 106px;
+    width: 9px;
+    height: 98px;
     background: #FF900E;
 }
 
@@ -143,11 +144,30 @@ nav a {
     font-size: 40px;
 }
 
-.featue-img img {
+.features-img img {
     width: 100%;
+    border-radius: 8px;
 }
 
 /* Our Sponspors style */
+.spospors-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 45px 415px;
+    gap: 18px;
+}
+
+.spospors-title {
+    font-weight: 600;
+    font-size: 40px;
+}
+.spospors-des{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
 .sponspors-img {
     display: flex;
     justify-content: space-between;
@@ -163,7 +183,7 @@ nav a {
 .footer-text {
     text-align: center;
     background-color: rgba(255, 144, 14, 0.1);
-    margin: 20px 160px 100px 160px;
+    margin: 100px 160px 150px 160px;
     padding: 25px;
     color: #727272;
     font-weight: 300;
