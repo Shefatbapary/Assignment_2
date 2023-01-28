@@ -1,7 +1,7 @@
 /* all wabsite style */
 * {
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .primary-btn {
@@ -14,6 +14,10 @@
     border: 0;
 }
 
+.primary-title {
+    font-weight: 600;
+    font-size: 43px;
+}
 
 /* header style */
 .header {
@@ -101,11 +105,6 @@ nav a {
     width: 100%;
 }
 
-.quick-list-info h2 {
-    font-weight: 400;
-    font-size: 40px;
-}
-
 .quick-list-style-1 {
     color: #727272;
 }
@@ -124,13 +123,14 @@ nav a {
 /* Features you style */
 .features-you {
     margin: 20px 160px;
-    display: flex;
-    gap: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .features-title-container {
     display: flex;
-    gap: 10px;
+    gap: 5px;
+    margin: 0 25% 20px 0;
 }
 
 .features-sitebar {
@@ -139,14 +139,46 @@ nav a {
     background: #FF900E;
 }
 
-.feature-title {
-    font-weight: 600;
-    font-size: 40px;
-}
-
 .features-img img {
     width: 100%;
     border-radius: 8px;
+}
+
+.features-you-des-part {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 586px;
+    height: 171px;
+}
+
+/* some fancts style */
+.some-facts-info {
+    margin: 70px 712px 50px 160px;
+}
+
+.some-facts-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 160px;
+}
+
+.some-facts-detais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 196px;
+    height: 196px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.some-facts-des {
+    color: #727272;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 /* Our Sponspors style */
@@ -154,15 +186,12 @@ nav a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 45px 415px;
+    margin: 110px 415px;
     gap: 18px;
 }
 
-.spospors-title {
-    font-weight: 600;
-    font-size: 40px;
-}
-.spospors-des{
+.spospors-des {
+    color: #727272;
     font-weight: 300;
     font-size: 15px;
     text-align: center;
