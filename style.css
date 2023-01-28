@@ -235,7 +235,7 @@ nav a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 110px 415px;
+    margin: 60px 415px;
     gap: 18px;
 }
 
@@ -249,7 +249,7 @@ nav a {
 .sponspors-img {
     display: flex;
     justify-content: space-between;
-    margin: 20px 160px;
+    margin: 60px 160px;
 }
 
 .sponspors-img img {
@@ -364,7 +364,7 @@ nav a {
         width: 90%;
     }
     .ten-year-btn{
-        
+
         position: static;
     }
     .some-facts-info {
