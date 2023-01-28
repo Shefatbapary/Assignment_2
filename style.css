@@ -6,17 +6,18 @@
 
 .primary-btn {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 0.938em;
     color: #ffffff;
     background: #FF900E;
     border-radius: 8px;
+    ;
     padding: 15px 18px;
     border: 0;
 }
 
 .primary-title {
     font-weight: 600;
-    font-size: 43px;
+    font-size: 2.688em;
 }
 
 /* header style */
@@ -265,4 +266,38 @@ nav a {
     color: #727272;
     font-weight: 300;
     font-size: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+/*responsive for mobile type devise */
+@media only screen and (max-width: 600px) {
+    nav {
+        padding: 28px 48px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav li {
+        font-size: 15px;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+    .banner-info {
+        margin: 0 16px;
+    }
+    .banner-img {
+        padding: 34px 26px;
+    }
 }
