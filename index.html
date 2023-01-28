@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3 Architects</title>
-    <!-- font -->
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4dcabb4a43.js" crossorigin="anonymous"></script>
+    <!-- text font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@600&display=swap"
@@ -98,10 +100,10 @@
             </div>
             <div class="features-img">
                 <img src="images/architect.png" alt="">
-                <!-- <button class="ten-year-btn">
+                <button class="ten-year-btn">
                     <span class="btn-title">10+Year</span>
                     <span class="btn-des">Experience</span class="btn-des">
-                </button> -->
+                </button>
             </div>
         </section>
         <!-- Some Facts section start -->
@@ -149,11 +151,41 @@
                 <img src="images/sponsors/telerama.png" alt="">
             </div>
         </section>
-
+        <!--Contact Section start  -->
+        <section class="Contact Section">
+            <div class="container">
+                <div style="text-align:center">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="https://www.officelovin.com/wp-content/uploads/2017/08/nixon-peabody-m.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <form action="/action_page.php">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                            </select>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:170px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Footer start -->
-    <footer>
-        <p class="footer-text">All rights reserved copyright@2023 startup landing page design</p>
+    </footer>
+    <p class="footer-text">All rights reserved copyright@2023 startup landing page design</p>
     </footer>
     <!-- Footer end -->
 </body>
