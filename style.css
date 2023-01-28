@@ -125,6 +125,7 @@ nav a {
     margin: 20px 160px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
 .features-title-container {
@@ -148,8 +149,49 @@ nav a {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    width: 586px;
-    height: 171px;
+    width: 440px;
+    height: 88px;
+    padding: 19px;
+    margin-top: 20px;
+}
+
+.features-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.features-des {
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.ten-year-btn {
+    position: relative;
+    bottom: 81px;
+    right: 40px;
+    width: 200px;
+    height: 100px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+
+}
+
+.btn-title {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.btn-des {
+    font-weight: 500;
+    font-size: 20px;
 }
 
 /* some fancts style */
@@ -163,16 +205,22 @@ nav a {
     margin: 50px 160px;
 }
 
+
 .some-facts-detais {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 196px;
-    height: 196px;
+    width: 170px;
+    height: 170px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     gap: 8px;
+}
+
+.some-facts-detais:hover {
+    transform: scale(1.1);
+    background-color: #8bddb4;
 }
 
 .some-facts-des {
